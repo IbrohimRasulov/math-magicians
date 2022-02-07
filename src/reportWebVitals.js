@@ -5,7 +5,7 @@ const reportWebVitals = (onPerfEntry) => {
       getFID,
       getFCP,
       getLCP,
-      getTTFB
+      getTTFB,
     }) => {
       getCLS(onPerfEntry);
       getFID(onPerfEntry);

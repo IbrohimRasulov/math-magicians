@@ -25,21 +25,22 @@
   line-height: 50px;
   vertical-align: middle;
   padding-right: 5px;
+  font-family: "Quicksand"; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
 }
 
 .button-17 {
   grid-column: 1 / 3;
 }
 
-.right-symbols {
+.right-buttons {
   background-color: #f5913e;
 }
 
-.top-symbols {
+.top-buttons {
   background-color: #99e599;
 }
 
-.centeral-symbols {
+.central-buttons {
   background-color: #dddada;
 }
 

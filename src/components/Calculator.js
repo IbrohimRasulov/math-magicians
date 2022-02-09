@@ -10,25 +10,25 @@ class Calculator extends React.Component {
     return (
       <div className="calculator-grid">
         <div className="output-box"><span className="output-value">0123456789</span></div>
-        <button type="button" className="button-1 top-symbols">AC</button>
-        <button type="button" className="button-2 top-symbols">+/-</button>
-        <button type="button" className="button-3 top-symbols">%</button>
-        <button type="button" className="button-4 right-symbols">/</button>
-        <button type="button" className="button-5 centeral-symbols">1</button>
-        <button type="button" className="button-6 centeral-symbols">2</button>
-        <button type="button" className="button-7 centeral-symbols">3</button>
-        <button type="button" className="button-8 right-symbols">x</button>
-        <button type="button" className="button-9 centeral-symbols">4</button>
-        <button type="button" className="button-10 centeral-symbols">5</button>
-        <button type="button" className="button-11 centeral-symbols">6</button>
-        <button type="button" className="button-12 right-symbols">-</button>
-        <button type="button" className="button-13 centeral-symbols">7</button>
-        <button type="button" className="button-14 centeral-symbols">8</button>
-        <button type="button" className="button-15 centeral-symbols">9</button>
-        <button type="button" className="button-16 right-symbols">+</button>
-        <button type="button" className="button-17 centeral-symbols">0</button>
-        <button type="button" className="button-18 centeral-symbols">.</button>
-        <button type="button" className="button-19 right-symbols">=</button>
+        <button type="button" className="button-1 top-buttons">AC</button>
+        <button type="button" className="button-2 top-buttons">+/-</button>
+        <button type="button" className="button-3 top-buttons">%</button>
+        <button type="button" className="button-4 right-buttons">/</button>
+        <button type="button" className="button-5 central-buttons">1</button>
+        <button type="button" className="button-6 central-buttons">2</button>
+        <button type="button" className="button-7 central-buttons">3</button>
+        <button type="button" className="button-8 right-buttons">x</button>
+        <button type="button" className="button-9 central-buttons">4</button>
+        <button type="button" className="button-10 central-buttons">5</button>
+        <button type="button" className="button-11 central-buttons">6</button>
+        <button type="button" className="button-12 right-buttons">-</button>
+        <button type="button" className="button-13 central-buttons">7</button>
+        <button type="button" className="button-14 central-buttons">8</button>
+        <button type="button" className="button-15 central-buttons">9</button>
+        <button type="button" className="button-16 right-buttons">+</button>
+        <button type="button" className="button-17 central-buttons">0</button>
+        <button type="button" className="button-18 central-buttons">.</button>
+        <button type="button" className="button-19 right-buttons">=</button>
       </div>
     );
   }

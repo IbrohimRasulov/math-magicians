@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
-  font-family: "Quicksand";
+  font-family: "Quicksand"; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
 }
 
 .calculator-grid {
@@ -45,11 +45,11 @@
 
 .calculator-grid button {
   border: 1px solid #ccc;
-  font-size: .9rem;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 
 .calculator-grid button:hover,
 .calculator-grid button:focus {
-  opacity: .7;
+  opacity: 0.7;
 }

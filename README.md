@@ -4,6 +4,8 @@
 
 > "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to make simple calculations and read a random math-related quote. By building this application, I learned how to use React.
 
+![screenshot](app_screenshot.png)
+
 ## Built With
 
 - HTML
@@ -11,7 +13,7 @@
 - JavaScript
 - React, JSX
 
-## Live Demo
+## Live Demo (If available)
 
 [Live Demo Link]()
 

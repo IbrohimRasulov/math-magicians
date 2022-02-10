@@ -20,7 +20,7 @@ export default function operate(numberOne, numberTwo, operation) {
     }
   }
   if (operation === '%') {
-     try {
+    try {
       return one.mod(two).toString();
     } catch (err) {
       return "Can't find modulo as cannot be divided by 0.";

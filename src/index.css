@@ -6,11 +6,11 @@
 
 .calculator-grid {
   width: 320px;
-  height: 300px;
+  /* height: 300px; */
   margin: 100px auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 50px);
 }
 
 .output-box {
@@ -23,8 +23,7 @@
   color: #f7f7f7;
   font-size: 1.5rem;
   line-height: 50px;
-  vertical-align: middle;
-  padding-right: 5px;
+  padding: 0 5px;
   font-family: "Quicksand"; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
 }
 
@@ -51,7 +50,6 @@
   outline: none;
 }
 
-.calculator-grid button:hover,
-.calculator-grid button:focus {
+.calculator-grid button:hover {
   opacity: 0.7;
 }

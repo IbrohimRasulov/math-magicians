@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
-  font-family: "Quicksand"; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+  font-family: "Quicksand";
+  /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
 }
+
+.App {
+  margin: 20px 40px;
+}
+
+/*! Calculator */
 
 .calculator-grid {
   width: 320px;
@@ -24,7 +31,8 @@
   font-size: 1.5rem;
   line-height: 50px;
   padding: 0 5px;
-  font-family: "Quicksand"; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+  font-family: "Quicksand";
+  /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
 }
 
 .button-17 {
@@ -53,3 +61,35 @@
 .calculator-grid button:hover {
   opacity: 0.7;
 }
+
+/*! Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: blue;
+  font-size: 1.2rem;
+}
+
+.links a:hover {
+  color: #f1356d;
+  cursor: pointer;
+}
+
+.links span {
+  padding: 0 10px;
+}
+
+/*! Home */
+
+/*! Quote */

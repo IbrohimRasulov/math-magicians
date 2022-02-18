@@ -15,3 +15,41 @@ exports[`Render Home component 1`] = `
   </p>
 </div>
 `;
+
+exports[`Render Navbar component 1`] = `
+<nav
+  className="navbar"
+>
+  <h1>
+    Math Magicians
+  </h1>
+  <div
+    className="links"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      Home
+    </a>
+    <span>
+       | 
+    </span>
+    <a
+      href="/calculator"
+      onClick={[Function]}
+    >
+      Calculator
+    </a>
+    <span>
+       | 
+    </span>
+    <a
+      href="/quote"
+      onClick={[Function]}
+    >
+      Quote
+    </a>
+  </div>
+</nav>
+`;

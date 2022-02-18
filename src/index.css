@@ -4,13 +4,40 @@
   font-family: "Quicksand"; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
 }
 
+.App {
+  margin: 20px 40px;
+}
+
+.content {
+  padding-top: 40px;
+}
+
+.content h2 {
+  font-size: 1.7rem;
+  margin-bottom: 30px;
+}
+
+/*! Calculator */
+
 .calculator-grid {
   width: 320px;
   height: 300px;
-  margin: 100px auto;
+  margin: 80px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
+  float: right;
+}
+
+.calculator-title {
+  width: 50%;
+  display: inline-block;
+}
+
+.calculator-title p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  padding-top: 20px;
 }
 
 .output-box {
@@ -20,7 +47,7 @@
 
 .output-value {
   float: right;
-  color: #f7f7f7;
+  color: #fff;
   font-size: 1.5rem;
   line-height: 50px;
   padding: 0 5px;
@@ -52,4 +79,70 @@
 
 .calculator-grid button:hover {
   opacity: 0.7;
+}
+
+/*! Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #c0c3c4;
+  padding-bottom: 20px;
+}
+
+.navbar h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.links a {
+  text-decoration: none;
+  color: blue;
+  font-size: 1.2rem;
+}
+
+.links a:hover {
+  color: #f1356d;
+  cursor: pointer;
+}
+
+.links span {
+  padding: 0 10px;
+}
+
+/*! Home */
+
+.home p {
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
+/*! Quote */
+
+.quote {
+  width: 80%;
+  margin: 80px auto;
+}
+
+.quote fieldset {
+  padding: 0 25px;
+  border-radius: 20px;
+}
+
+.quote legend {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.quote p {
+  font-size: 1.4rem;
+  padding: 20px 0;
+}
+
+.quote span {
+  display: block;
+  float: right;
+  padding: 20px 0;
+  font-weight: 510;
 }

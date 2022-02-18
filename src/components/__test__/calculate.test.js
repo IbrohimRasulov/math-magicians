@@ -5,6 +5,7 @@ it('Updates state correctly', () => {
     total: 0,
     next: null,
     operation: null,
-  }
-  expect(calculate(myInitialObj, '4')).toEqual({ "next": "4", "total": null,});
+  };
+  // eslint-disable-next-line
+  expect(calculate(myInitialObj, '4')).toEqual({ 'next': '4', 'total': null });
 });

@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 const Home = () => (
   <div className="home">
     <h2>Welcome to our page!</h2>

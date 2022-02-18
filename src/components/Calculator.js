@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React, { useState } from 'react';
 import calculate from '../logic/calculate';
 
@@ -15,7 +16,7 @@ const Calculator = () => {
   return (
     <div className="calculator">
       <div className="calculator-title">
-        <h2>Let's do some math!</h2>
+        <h2>Let&apos;s do some math!</h2>
         <p>Using a calculator can be extremely helpful but only if you know its particular conventions. While there are different types out there many of the features are the same. Look for the number pad and the four basic operations, multiplication × addition + subtraction - and division ÷. To perform a calculation, make the necessary keystrokes and then hit =. For example, key 4 ÷ 2 =. The calculator should show the answer we expect, 2. Try some small calculations, like 2 + 3 and 4 × 5.</p>
       </div>
       <div className="calculator-grid">

@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 * {
-  font-family: "Quicksand";
-  /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+  font-family: "Quicksand"; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
 }
 
 .App {
@@ -52,8 +51,7 @@
   font-size: 1.5rem;
   line-height: 50px;
   padding: 0 5px;
-  font-family: "Quicksand";
-  /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
+  font-family: "Quicksand"; /* stylelint-disable-line font-family-no-missing-generic-family-keyword */
 }
 
 .button-17 {

@@ -1,0 +1,164 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render Calculator component 1`] = `
+<div
+  className="calculator"
+>
+  <div
+    className="calculator-title"
+  >
+    <h2>
+      Let's do some math!
+    </h2>
+    <p>
+      Using a calculator can be extremely helpful but only if you know its particular conventions. While there are different types out there many of the features are the same. Look for the number pad and the four basic operations, multiplication × addition + subtraction - and division ÷. To perform a calculation, make the necessary keystrokes and then hit =. For example, key 4 ÷ 2 =. The calculator should show the answer we expect, 2. Try some small calculations, like 2 + 3 and 4 × 5.
+    </p>
+  </div>
+  <div
+    className="calculator-grid"
+  >
+    <div
+      className="output-box"
+    >
+      <span
+        className="output-value"
+      >
+        0
+      </span>
+    </div>
+    <button
+      className="button-1 top-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      AC
+    </button>
+    <button
+      className="button-2 top-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      +/-
+    </button>
+    <button
+      className="button-3 top-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      %
+    </button>
+    <button
+      className="button-4 right-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      ÷
+    </button>
+    <button
+      className="button-5 central-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="button-6 central-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="button-7 central-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="button-8 right-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      x
+    </button>
+    <button
+      className="button-9 central-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+    <button
+      className="button-10 central-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      5
+    </button>
+    <button
+      className="button-11 central-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      6
+    </button>
+    <button
+      className="button-12 right-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      -
+    </button>
+    <button
+      className="button-13 central-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      7
+    </button>
+    <button
+      className="button-14 central-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      8
+    </button>
+    <button
+      className="button-15 central-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      9
+    </button>
+    <button
+      className="button-16 right-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      +
+    </button>
+    <button
+      className="button-17 central-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="button-18 central-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      .
+    </button>
+    <button
+      className="button-19 right-buttons"
+      onClick={[Function]}
+      type="button"
+    >
+      =
+    </button>
+  </div>
+</div>
+`;

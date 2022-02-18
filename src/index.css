@@ -9,15 +9,36 @@
   margin: 20px 40px;
 }
 
+.content {
+  padding-top: 40px;
+}
+
+.content h2 {
+  font-size: 1.7rem;
+  margin-bottom: 30px;
+}
+
 /*! Calculator */
 
 .calculator-grid {
   width: 320px;
   height: 300px;
-  margin: 100px auto;
+  margin: 80px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
+  float: right;
+}
+
+.calculator-title {
+  width: 50%;
+  display: inline-block;
+}
+
+.calculator-title p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  padding-top: 20px;
 }
 
 .output-box {
@@ -91,5 +112,11 @@
 }
 
 /*! Home */
+
+.home p {
+  font-size: 1.2rem;
+  padding-top: 20px;
+}
+
 
 /*! Quote */

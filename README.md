@@ -13,6 +13,11 @@ https://user-images.githubusercontent.com/78875455/154599179-8e67c6db-4aff-44ba-
 - JavaScript
 - React, JSX
 
+## Live Demo
+
+[live demo with Heroku]()
+[live demo with Netlify]()
+
 ## Authors
 
 👤 **Ibrohim Rasulov**

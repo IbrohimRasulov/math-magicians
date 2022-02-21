@@ -15,7 +15,7 @@ https://user-images.githubusercontent.com/78875455/154599179-8e67c6db-4aff-44ba-
 
 ## Live Demo
 
-[live demo with Heroku]()<br>
+[live demo with Heroku](https://math-magicians-with-heroku.herokuapp.com/)<br>
 [live demo with Netlify](https://621420604df7e5bdb5083bf0--goofy-archimedes-6db81d.netlify.app/)
 
 ## Authors
